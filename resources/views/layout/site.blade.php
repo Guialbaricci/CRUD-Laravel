@@ -112,7 +112,6 @@
             box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
         }
 
-        /* Alinhamento horizontal correto do campo cinza de Imagem */
         .file-field.input-field {
             border: 1px solid #ddd;
             padding: 12px;
@@ -150,7 +149,6 @@
             margin: 0 !important;
         }
 
-        /* Ajuste para o preview da imagem antiga ficar alinhado e sem altura excessiva */
         .preview-box {
             display: inline-flex;
             align-items: center;
@@ -177,7 +175,6 @@
             font-weight: bold;
         }
 
-        /* Alinhamento da linha do checkbox */
         .input-field p {
             margin: 0;
         }
@@ -202,6 +199,33 @@
             color: #1e293b;
             font-weight: bold;
         }
+
+        .btn-google {
+    background: #4285f4;
+    color: white;
+    }
+
+    .btn-google:hover {
+        background: #3367d6;
+    }
+
+    .input-field input[type="password"] {
+        padding: 12px;
+        border: 1px solid #ddd;
+        border-radius: 6px;
+        font-size: 15px;
+        outline: none;
+        background: #fff;
+        color: #334155;
+        transition: border-color 0.2s, box-shadow 0.2s;
+        box-sizing: border-box;
+        width: 100%;
+    }
+
+    .input-field input[type="password"]:focus {
+        border-color: #2563eb;
+        box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+    }
     </style>
 </head>
 <body>
